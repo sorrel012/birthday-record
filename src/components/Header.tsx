@@ -8,7 +8,7 @@ const monofett = Monofett({
 
 function Header() {
   return (
-    <div className="text-center">
+    <div className="text-center pt-6">
       <h1 className={`${monofett.className} title`}>Birthday Record</h1>
     </div>
   );
