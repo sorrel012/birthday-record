@@ -67,7 +67,7 @@ body {
   width: 100vw;
   height: 100vh;
   color: #1c1c1c;
-  background-color: rgba(145, 145, 145, 0.63);
+  background-color: #edf0f3;
 }
 
 a {
@@ -87,7 +87,7 @@ a {
 }
 
 .title {
-  font-size: 5vw;
+  font-size: 4rem;
   text-shadow:
       -0.2vw -0.2vw 0 #FFB6D0,
       0.2vw -0.2vw 0 #FFB6D0,
@@ -97,4 +97,7 @@ a {
       0.2vw 0 0 #FFB6D0,
       0 -0.2vw 0 #FFB6D0,
       -0.2vw 0 0 #FFB6D0;
+    @media(max-width: 768px) {
+      font-size: 2rem;
+    }
 }
