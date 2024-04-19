@@ -68,11 +68,6 @@ body {
   height: 100vh;
   color: #1c1c1c;
   background-color: rgba(145, 145, 145, 0.63);
-  padding: 10px 0;
-
-  @media(max-width: 768px) {
-    padding: 0;
-  }
 }
 
 a {
@@ -81,15 +76,13 @@ a {
 }
 
 .wrapper {
-  max-width: 900px;
+  width: 768px;
   height: 100%;
   margin: 0 auto;
   background-color: white;
-  border-radius: 20px;
 
   @media(max-width: 768px) {
     width: 100%;
-    border-radius: 0;
   }
 }
 
