@@ -1,15 +1,9 @@
-import { Monofett } from 'next/font/google';
 import '../styles/globals.css';
-
-const monofett = Monofett({
-  weight: '400',
-  subsets: ['latin'],
-});
 
 function Header() {
   return (
-    <div className="text-center pt-6">
-      <h1 className={`${monofett.className} title`}>Birthday Record</h1>
+    <div className="text-center pt-10">
+      <h1 className={`title`}>Birthday Record</h1>
     </div>
   );
 }
