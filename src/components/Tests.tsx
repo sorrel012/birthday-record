@@ -17,18 +17,19 @@ function Tests() {
   ];
 
   return (
-    <div className="grid grid-cols-3 gap-5 p-5 mt-10 test">
-      {images.map((thumbnail) => (
-        <Image
-          key={thumbnail.src}
-          src={thumbnail.src}
-          width={200}
-          height={200}
-          layout="responsive"
-          alt={thumbnail.alt}
-          className="cursor-pointer border rounded box-shadow"
-        />
-      ))}
+    <div className="sm:mt-16 sm:pt-15 p-12 mt-8 pt-14 pb-15 test">
+      <div className="grid grid-cols-2 gap-12 ">
+        {images.map((thumbnail) => (
+          <Image
+            key={thumbnail.src}
+            src={thumbnail.src}
+            width={200}
+            height={200}
+            alt={thumbnail.alt}
+            className="cursor-pointer border rounded box-shadow responsiveImage "
+          />
+        ))}
+      </div>
     </div>
   );
 }
